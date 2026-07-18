@@ -1,3 +1,3 @@
 # Navo Care Solutions
 
-Welcome to the Navo Care Solutions website project.
+Welcome to the Yarsa Wellness Group website project.

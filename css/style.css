@@ -939,3 +939,27 @@ button {
         display: none;
     }
 }
+.page-hero {
+    padding: 110px 0;
+    background:
+        radial-gradient(
+            circle at 85% 20%,
+            rgba(212, 162, 76, 0.16),
+            transparent 25%
+        ),
+        linear-gradient(135deg, #f5fbf8 0%, #e9f6f1 100%);
+}
+
+.page-hero h1 {
+    max-width: 900px;
+    margin-bottom: 24px;
+    font-size: clamp(3rem, 6vw, 5rem);
+    line-height: 1.05;
+    letter-spacing: -0.055em;
+}
+
+.page-hero p:last-child {
+    max-width: 720px;
+    color: var(--text-medium);
+    font-size: 1.1rem;
+}

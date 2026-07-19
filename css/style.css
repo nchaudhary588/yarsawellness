@@ -66,8 +66,9 @@ button {
     backdrop-filter: blur(16px);
 }
 
+
 .header-container {
-    min-height: 82px;
+    min-height: 88px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -108,14 +109,32 @@ button {
     letter-spacing: -0.03em;
 }
 
+
 .brand-text small {
-    margin-top: 5px;
+    margin-top: 4px;
     color: var(--text-medium);
-    font-size: 0.72rem;
+    font-size: 0.65rem;
     font-weight: 700;
-    letter-spacing: 0.16em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
 }
+
+
+.logo{
+    width:220px;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+.footer-logo{
+    width:160px;
+    height:auto;
+    display:block;
+    object-fit:contain;
+}
+
+
 
 .main-navigation {
     display: flex;
@@ -751,6 +770,19 @@ button {
 .footer-bottom a:hover {
     color: var(--white);
 }
+.footer-legal-name {
+    margin-top: 22px;
+    margin-bottom: 8px;
+    color: var(--white);
+    font-size: 0.92rem;
+    font-weight: 700;
+}
+
+.footer-description {
+    margin-top: 0;
+    color: rgba(255, 255, 255, 0.65);
+    font-size: 0.92rem;
+}
 
 @media (max-width: 1000px) {
     .header-button {
@@ -794,9 +826,13 @@ button {
         width: min(100% - 30px, var(--container));
     }
 
-    .header-container {
-        min-height: 72px;
-    }
+    .header-container{
+    min-height:95px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:32px;
+}
 
     .menu-button {
         display: block;
@@ -962,4 +998,11 @@ button {
     max-width: 720px;
     color: var(--text-medium);
     font-size: 1.1rem;
+}
+.footer-legal-name {
+    margin-top: 22px;
+    margin-bottom: 8px;
+    color: #ffffff;
+    font-size: 0.92rem;
+    font-weight: 700;
 }
